@@ -1,0 +1,8 @@
+{
+  "name": "bgutil-ytdlp-pot-provider-server",
+  "version": "2.0.2",
+  "private": true,
+  "description": "Compiled server of https://github.com/Brainicism/bgutil-ytdlp-pot-provider 2.0.2 (unmodified). Dependencies are installed by the root package.json.",
+  "license": "GPL-3.0-only",
+  "type": "module"
+}

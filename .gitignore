@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+.env.*
+cookies.txt
+
+# Dependencies
+node_modules/
+
+# Runtime state / cache (regenerated, not source)
+data/
+.cache/
+
+# Bundled/auto-installed binaries (yt-dlp, FFmpeg) - large, platform-specific,
+# re-downloaded automatically by src/binaries.mjs or supplied via
+# YTDLP_PATH/FFMPEG_PATH env vars. Not meant to live in git.
+bin/
+
+# Logs
+*.log
+npm-debug.log*

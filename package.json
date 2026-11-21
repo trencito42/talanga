@@ -1,0 +1,32 @@
+{
+  "name": "talanga",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Talanga Discord music bot powered by remote Lavalink v4 nodes",
+  "type": "module",
+  "main": "bot.mjs",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env bot.mjs",
+    "diagnose": "node --env-file-if-exists=.env bot.mjs --diagnose",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
+    "opusscript": "^0.0.8",
+    "axios": "1.20.0",
+    "bgutils-js": "4.0.3",
+    "commander": "15.0.0",
+    "express": "5.2.1",
+    "jsdom": "29.1.1",
+    "proxy-agent": "8.0.2",
+    "youtubei.js": "18.1.0",
+    "ws": "8.22.0"
+  },
+  "overrides": {
+    "basic-ftp": "6.2.1"
+  }
+}
